@@ -13,12 +13,7 @@ sitemap: false
 
 <div class="my-img-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/attendance/attendance_1.jpg" oncontextmenu="return false;">
-    <figcaption>출석 완료</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/img/projects/lingocity/attendance/attendance_2.jpg" oncontextmenu="return false;">
-    <figcaption>출석 현황</figcaption>
+    <img src="/assets/img/projects/lingocity/attendance/attendance_1.jpg" style="width:60%" oncontextmenu="return false;">
   </figure>
 </div>
 
@@ -33,6 +28,14 @@ sitemap: false
 평일 5일 연속 출석 시 주간 보상을, 20일 연속 출석 시 월간 보상을 획득할 수 있습니다.<br>
 보상은 20일을 기준으로 초기화되지만 연속 출석일 수는 계속해서 누적됩니다.<br>
 출석하지 못한 날짜는 한 달에 최대 5번까지 구매할 수 있으며, 구매를 통한 출석도 보상과 연속 출석 일 수에 포함되도록 했습니다.
+
+<div style="margin-top:3rem;"></div>
+<div class="my-img-row">
+  <figure>
+    <img src="/assets/img/projects/lingocity/attendance/attendance_2.jpg" style="width:60%" oncontextmenu="return false;">
+    <figcaption>출석 현황</figcaption>
+  </figure>
+</div>
 
 
 ### 작동 방식

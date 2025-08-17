@@ -14,7 +14,6 @@ sitemap: false
 <div class="my-img-row">
   <figure>
     <img src="/assets/img/projects/lingocity/buddy/buddy_intro_anim.gif" style="width:50%" oncontextmenu="return false;">
-    <!-- <figcaption>버디</figcaption> -->
   </figure>
 </div>
 

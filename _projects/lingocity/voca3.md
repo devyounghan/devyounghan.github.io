@@ -13,12 +13,7 @@ sitemap: false
 
 <div class="my-img-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/attendance/attendance_1.jpg" oncontextmenu="return false;">
-    <figcaption>출석 완료</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/img/projects/lingocity/attendance/attendance_2.jpg" oncontextmenu="return false;">
-    <figcaption>출석 현황</figcaption>
+    <img src="/assets/img/projects/lingocity/voca3/voca3.jpg" style="width:60%" oncontextmenu="return false;">
   </figure>
 </div>
 
@@ -45,26 +40,26 @@ Voca3 미션은 어휘 학습을 목표로 하는 미션입니다.<br>
 
 위의 '문장 만들기' 과정에는 별도의 연출을 적용하였고, 총 4가지 타입으로 나누어 개발하였습니다.<br>
 팀원들을 대상으로 프로토타입 공개 당시 이전에 없던 풍성한 연출로 좋은 평가를 받았고,<br>
-출시 후에도 유저들에게 좋은 피드백을 받았던 콘텐츠입니다.
+출시 후에도 유저들에게 긍정적인 피드백을 받았던 콘텐츠입니다.
 
 <div style="margin-top:3rem;"></div>
 <div class="my-img-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/voca3/voca3_type_1_anim.gif" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/voca3/voca3_type1_anim.gif" oncontextmenu="return false;">
     <figcaption>1번 타입</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/projects/lingocity/voca3/voca3_type_2_anim.gif" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/voca3/voca3_type2_anim.gif" oncontextmenu="return false;">
     <figcaption>2번 타입</figcaption>
   </figure>
 </div>
 <div class="my-img-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/voca3/voca3_type_3_anim.gif" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/voca3/voca3_type3_anim.gif" oncontextmenu="return false;">
     <figcaption>3번 타입</figcaption>
   </figure>
   <figure>
-    <img src="/assets/img/projects/lingocity/voca3/voca3_type_4_anim.gif" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/voca3/voca3_type4_anim.gif" oncontextmenu="return false;">
     <figcaption>4번 타입</figcaption>
   </figure>
 </div>

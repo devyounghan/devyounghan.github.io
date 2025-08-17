@@ -23,7 +23,8 @@
       {% endif %}
 
       {% if location.city.size > 0 %}
-        <span class="locality p-locality" property="addressLocality">{{ location.city }}</span>{{ sep }}
+        <!-- <span class="locality p-locality" property="addressLocality">{{ location.city }}</span>{{ sep }} -->
+        <span class="locality p-locality" property="addressLocality">{{ location.city }}</span>
       {% endif %}
 
       {% if location.region.size > 0 %}
@@ -76,10 +77,7 @@
       <span class="{{ icons.email | default:'icon-mail2' }}" title="{{ strings.resume.email | default:'Email' }}"></span>
       <span class="sr-only">{{ strings.resume.email | default:"Email" }}</span>
     </dt>
-    <dd class="bold">
-      <meta property="email" content="{{ basics.email }}"/>
-      <a href="mailto:{{ basics.email }}" class="external no-print-link email u-email">{{ basics.email }}</a>
-    </dd>
+    <dd class="bold">{{ basics.email }}</dd>
   {% endif %}
 
   {% if basics.phone.size > 0 %}

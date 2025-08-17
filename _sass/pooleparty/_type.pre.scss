@@ -166,6 +166,10 @@ dt:after{
   color: var(--menu-text);
 }
 
+dt.no-colon:after {
+  content: "";
+}
+
 dd {
   margin-bottom: .5rem;
 }

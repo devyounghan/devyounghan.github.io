@@ -1,0 +1,32 @@
+{% if resume.trainings.size > 0 %}
+<section>
+  <div class="npb">
+  <h2 id="trainings" class="h3 hr-bottom">
+    {{ strings.resume.trainings | default:"Trainings" }}
+    <span class="symbol {{ icons.trainings | default:'icon-keyboard' }}"></span>
+  </h2>
+  {% for training in resume.trainings %}
+  <section>
+    <header class="{% unless forloop.first %}mt2{% endunless %}">
+      {% if training.startDate.size > 0 %}
+        <p class="faded">
+          {% include components/from-to.html from=training.startDate to=training.endDate format="%Y. %m" %}
+        </p>
+      {% endif %}
+      <h3 class="h4 faded">
+        <span class="bc">{{ training.title}}</span>
+      </h3>
+    </header>
+    {% if training.courses.size > 0 %}
+    <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
+    <ul>
+      {% for course in training.courses %}
+        <li>{{ course }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </section>
+  {% if forloop.first %}</div>{% endif %}
+  {% endfor %}
+</section>
+{% endif %}

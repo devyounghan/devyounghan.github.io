@@ -1,19 +1,17 @@
 {% assign p1 = page.previous | default:page.next.next %}
 {% assign p2 = page.next | default:page.previous.previous %}
 
-{% if p1 or p2 %}
+{% if (p1 and p1.layout == "project") or (p2 and p2.layout == "project") %}
 <aside class="other-projects related mb4" role="complementary">
   <h2>{{ site.data.strings.other_projects | default:"Other Projects" }}</h2>
   <div class="columns">
-    {% assign p1 = page.previous | default:page.next.next %}
-    {% if p1 %}
+    {% if p1 and p1.layout == "project" %}
       <div class="column column-1-2">
         {% include_cached pro/project-card.html project=p1 %}
       </div>
     {% endif %}
 
-    {% assign p2 = page.next | default:page.previous.previous %}
-    {% if p2 %}
+    {% if p2 and p2.layout == "project" %}
       <div class="column column-1-2">
         {% include_cached pro/project-card.html project=p2 %}
       </div>

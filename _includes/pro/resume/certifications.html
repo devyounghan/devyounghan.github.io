@@ -1,0 +1,19 @@
+{% if resume.certifications.size > 0 %}
+<section>
+  <div class="npb">
+  <h2 id="certifications" class="h3 hr-bottom">
+    {{ strings.resume.certifications | default:"Certifications" }}
+    <span class="symbol {{ icons.certifications | default:'icon-profile' }}"></span>
+  </h2>
+  <dl class="certifications">
+    {% for certification in resume.certifications %}
+    <dt class="fl no-colon">{{ certification.title }}</dt>
+    <dd class="faded clearafter">
+      <div class="fr">
+        {{ certification.date | date: "%Y. %m" }}
+      </div>
+    </dd>
+    {% endfor %}
+  </dl>
+</section>
+{% endif %}

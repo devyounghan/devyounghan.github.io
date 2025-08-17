@@ -1,0 +1,124 @@
+// #4fb1ba
+
+// mark
+.my-mark-1 {
+    background-color: #177b84;
+    color: var(--body-color);
+    padding: 0 0.2em;
+    border-radius: 0.2em;
+}
+
+.my-mark-2 {
+    background-color: #1b8c96;
+    color: var(--body-color);
+    padding: 0 0.2em;
+    border-radius: 0.2em;
+}
+
+// underline
+// 참고 - _links.pre.scss
+.my-underline {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--accent-color-faded);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.35rem;
+    transition: color 250ms, text-decoration-color 250ms, border-color 250ms;
+}
+.my-underline:hover {
+    text-decoration-color: var(--accent-color);
+    transition: color 50ms, text-decoration-color 50ms, border-color 50ms;
+}
+details[open]>summary.my-underline {
+    text-decoration-color: var(--accent-color);
+}
+
+// image layout
+.my-img-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    // margin-top: -1rem;
+}
+.my-img-row img {
+  flex: 1 1 0;
+  max-width: 100%;
+  height: auto;
+  min-width: 120px;
+  box-sizing: border-box;
+}
+
+// header
+.my-heading-circle-1 {
+  position: relative;
+}
+.my-heading-circle-1::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+
+.my-heading-circle-2 {
+  position: relative;
+}
+.my-heading-circle-2::before {
+  content: '';
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  background: none;
+}
+
+.my-heading-number {
+  position: relative;
+  counter-increment: myheadingnumber;
+}
+body {
+  counter-reset: myheadingnumber;
+}
+.my-heading-number::before {
+  content: counter(myheadingnumber) ". ";
+  font-weight: bold;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  color: var(--accent-color);
+}
+
+// avatar
+// 참고 - sidebar-sticky.html
+.my-avatar-bg {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border: 8px solid #070707;
+  border-radius: 4px;
+//   background: url('/assets/img/your-background.png') center center/cover no-repeat;
+  background: #ffedb5;
+  position: relative;
+  overflow: hidden;
+//   margin-bottom: 0.5rem;
+}
+// _links.pre.scss에 작성된 no-hover가 배경 외곽선 하단을 제거하는 것을 예외 처리
+.my-avatar-bg.no-hover {
+  border-bottom: 8px solid #070707 !important;
+}
+.my-avatar-bg img.avatar {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0px;
+  object-fit: cover;
+}

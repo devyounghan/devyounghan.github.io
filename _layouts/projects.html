@@ -16,20 +16,22 @@ layout: page
 {% assign prev_date = 0 %}
 {% if page.no_groups %}<div class="columns {% unless no_third_column %}columns-break{% endunless %}">{% endif %}
 {% for project in ordered_projects %}
-  {% assign current_date = project.date | date:projects_group_by %}
+  {% if project.layout == "project" %}
+    {% assign current_date = project.date | date:projects_group_by %}
 
-  {% unless page.no_groups %}{% if current_date != prev_date %}
-    {% unless forloop.first %}</div>{% endunless %}
+    {% unless page.no_groups %}{% if current_date != prev_date %}
+      {% unless forloop.first %}</div>{% endunless %}
 
-    <h2 id="{{ projects_group_by | slugify }}-{{ current_date | slugify }}">{{ current_date }}</h2>
-    <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
-    {% assign prev_date = current_date %}
-  {% endif %}{% endunless %}
+      <h2 id="{{ projects_group_by | slugify }}-{{ current_date | slugify }}">{{ current_date }}</h2>
+      <div class="columns {% unless no_third_column %}columns-break{% endunless %}">
+      {% assign prev_date = current_date %}
+    {% endif %}{% endunless %}
 
-  {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
-  <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
-    {% include_cached pro/project-card.html project=project featured=featured %}
-  </div>
+    {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
+    <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
+      {% include_cached pro/project-card.html project=project featured=featured %}
+    </div>
 
-  {% if forloop.last %}</div>{% endif %}
+    {% if forloop.last %}</div>{% endif %}
+  {% endif %}
 {% endfor %}

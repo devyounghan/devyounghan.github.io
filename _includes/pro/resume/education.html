@@ -10,24 +10,21 @@
     <header class="{% unless forloop.first %}mt2{% endunless %}">
       {% if edu.startDate.size > 0 %}
         <p class="faded">
-          {% include components/from-to.html from=edu.startDate to=edu.endDate format=from_to_format %}
+          {% include components/from-to.html from=edu.startDate to=edu.endDate format="%Y. %m" %}
         </p>
       {% endif %}
-      <h3 class="h4 faded" {% if edu.endDate.size > 0 %}property="alumniOf" typeof="EducationalOrganization"{% endif %}>
-        {% capture study_type %}<span class="bc">{{ edu.studyType }}</span>{% endcapture %}
-        {% capture area %}<span class="bc">{{ edu.area }}</span>{% endcapture %}
-        {% capture institution %}<span class="bc" {% if edu.endDate.size > 0 %}property="name"{% endif %}>{{ edu.institution }}</span>{% endcapture %}
-        {% capture gpa %}<span class="bc">{{ edu.gpa }}</span>{% endcapture %}
-        {{ strings.resume.education_title
-          | default:"<!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->"
-          | replace:"<!--study_type-->", study_type
-          | replace:"<!--area-->", area
-          | replace:"<!--institution-->", institution
-          | replace:"<!--gpa-->", gpa
-        }}
+      <h3 class="h4 faded">
+        <span class="bc">{{ edu.institution }}</span>
+        {%- if edu.area.size > 0 -%}
+          <small style="font-weight:normal;">에서</small>
+          <span class="bc">{{ edu.area }}</span><small style="font-weight:normal;">를 전공</small>
+          <!-- {%- if edu.studyType.size > 0 -%}
+            <small style="font-weight:normal;">,</small>
+            <span class="bc">{{ edu.studyType }}</span><small style="font-weight:normal;"> 학위를 취득</small>
+          {%- endif -%} -->
+        {%- endif -%}
       </h3>
     </header>
-
     {% if edu.courses.size > 0 %}
     <h4 class="sr-only">{{ strings.resume.courses | default:"Courses" }}</h4>
     <ul>

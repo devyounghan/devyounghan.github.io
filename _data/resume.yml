@@ -2,102 +2,133 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "김영한"
+  label: "Younghan Kim"
+  picture: "/assets/img/profile/main.jpg"
+  email: "younghannn@gmail.com"
+  # phone: "010-9300-7138"
+  # website: "https://piedpiper.com"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    게임 개발에 대한 열정으로 다양한 배움과 경험을 쌓아왔습니다.<br>
+    대학교에서 디지털미디어를 전공하며 게임 개발자가 되기 위해 필요한 과목들을 이수하였고,
+    졸업 후에는 유데미 STARTERS 부트캠프 1기생으로 합격하여 Unity 개발 과정을 수료하였습니다.<br>
+    이후 웅진씽크빅에서 Unity 클라이언트 개발자로 근무, 메타버스 프로젝트를 진행하며 개발자로서 더욱 성장할 수 있었습니다.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
-  profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
-    - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+    # address: "2712 Broadway St"
+    # postalCode: "CA 94115"
+    city: "서울"
+    # countryCode: "KR"
+    # region: "Seoul"
+  # profiles:
+  #   - network: "Twitter"
+  #     username: "RHendricksCEO"
+  #     url: ""
+  #   - network: "LinkedIn"
+  #     username: "Richard Hendricks"
+  #     url: ""
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+  - company: "웅진씽크빅"
+    position: "Unity 클라이언트 개발자"
+    jobLevel: ""
+    website: "https://www.wjthinkbig.com/index.do"
+    startDate: "2023-07-03"
+    endDate: "2025-07-31"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      웅진씽크빅에서 메타버스 학습 제품의 클라이언트 개발을 담당했습니다.<br>
+      기존 제품(스마트올 메타버스)의 업데이트, 유지보수와 함께 신규 영어 학습 제품(링고시티) 개발에 참여하였고,
+      링고시티의 개발 초기 단계부터 런칭, 운영, 글로벌 확장까지 개발 전체 과정을 경험하였습니다.<br>
+      링고시티에서 특히 게이미피케이션 콘텐츠를 가장 중점적으로 담당하여 개발하였으며,
+      이 외에도 학습 미션을 포함한 여러 콘텐츠와 팀 내에서 활용할 수 있는 개발용 툴을 개발하였습니다.<br>
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+      - 메타버스 학습 제품 클라이언트 개발
+      - 메타버스 콘텐츠 개발
+      - 툴 개발
+  - company: "웅진씽크빅"
+    position: "Unity 클라이언트 개발자(인턴)"
+    jobLevel: "인턴"
+    website: "https://www.wjthinkbig.com/index.do"
+    startDate: "2023-03-13"
+    endDate: "2023-06-23"
+    summary: >
+      웅진씽크빅 Unity 클라이언트 개발자 인턴십
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - 생성형 AI를 활용한 메타버스 영어 학습 제품 프로토타입 개발
+      - 생성형 AI를 활용한 메타버스 콘텐츠 개발
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "아주대학교"
+    area: "디지털미디어"
+    studyType: "학사"
+    startDate: "2014-03-01"
+    endDate: "2022-02-22"
+    # gpa: "4.0"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+      - 프로그래밍
+      - 컴퓨터 과학
+      - 컴퓨터 그래픽스
+      - 애니메이션
+      - 게임
+  - institution: "병점고등학교"
+    startDate: "2010-03-01"
+    endDate: "2013-02-01"
+trainings:
+  - title: "유데미 STARTERS 취업 부트캠프<br>1기 - Unity 개발"
+    startDate: "2022-06-20"
+    endDate: "2023-03-03"
+    courses:
+      # - Unity 기초 + 게임 제작 실습
+      # - Unity 심화 + 프로젝트 실습
+certifications:
+  - title: "SQL 개발자(SQLD)"
+    date: "2022-06-24"
+    issuer: "한국데이터산업진흥원"
+  - title: "데이터분석 준전문가(ADsP)"
+    date: "2021-09-24"
+    issuer: "한국데이터산업진흥원"
+  - title: "정보처리기사"
+    date: "2021-08-20"
+    issuer: "한국산업인력공단"
+  - title: "멀티미디어콘텐츠제작전문가"
+    date: "2018-10-26"
+    issuer: "한국산업인력공단"
+  - title: "컴퓨터활용능력 1급"
+    date: "2018-04-27"
+    issuer: "대한상공회의소"
 skills:
-  - name: "Web Development"
-    level: "Master"
+  - name: "Game Development"
+    level: "Amateur"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "Unity"
+      - "C#"
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
+# publications:
+#   - name: "Video compression for 3d media"
+#     publisher: "Hooli"
+#     releaseDate: "2014-10-01"
+#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
+# volunteer:
+#   - organization: "CoderDojo"
+#     position: "Teacher"
+#     website: "https://coderdojo.com/"
+#     startDate: "2012-01-01"
+#     endDate: "2013-01-01"
+#     summary: "Global movement of free coding clubs for young people."
+#     highlights:
+#       - "Awarded 'Teacher of the Month'"
+# languages:
+#   - language: "English"
+#     fluency: "Native speaker"
+# interests:
+#   - name: "Wildlife"
+#     keywords:
+#       - "Ferrets"
+#       - "Unicorns"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.

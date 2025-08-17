@@ -20,16 +20,15 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Younghan
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Younghan's personal website showcasing projects, resume, and blog posts.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               🎮👨‍💻
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,26 +36,28 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/profile/simple_transparent.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author:
+# author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  # name:                <firstname> <lastname>
+  # email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
   - title:             Projects
     url:               /projects/
-  - title:             Résumé*
+  - title:             Resume
     url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Blog
+    url:               /blog/
+  # - title:             Résumé*
+  #   url:               /resume/
+  # - title:             Documentation
+  #   url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -94,8 +95,9 @@ paginate_path:         /blog/:num/
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/bg_main_anim.gif
+# accent_color:          rgb(79,177,186)
+accent_color:          '#ffedb5'
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -114,11 +116,13 @@ theme_color:           rgb(25,55,71)
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-# font:                  Noto Sans, Helvetica, Arial, sans-serif
+# font:                  Comic Mono, Maplestory Light, Noto Sans, Helvetica, Arial, sans-serif
+font:                  Maplestory Light, Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-# font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+# font_heading:          Comic Mono, Maplestory Light, Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Maplestory Light, Roboto Slab, Helvetica, Arial, sans-serif
 
 # The font used for code blocks. Expects a string that is a valid CSS font-family value. 
 # Defaults to the [System Monospace Font Stack](https://qwtel.com/posts/software/the-monospaced-system-ui-css-font-stack/).
@@ -365,11 +369,11 @@ plugins:
 #   admins:              <id>
 
 # Used on index and about sites
-# social:
-#   name:                <firstname> <lastname>
-#   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+social:
+  name:                <firstname> <lastname>
+  links:
+    # - https://twitter.com/<username>
+    - https://github.com/devyounghan
 
 
 # Plugin Configs

@@ -119,6 +119,12 @@
     }
   }
 
+  .certifications {
+    >dt {
+      margin-bottom: 0.5rem;
+    }
+  }
+
   .skills {
     > dt {
       margin-bottom: 0;
@@ -143,6 +149,26 @@
     float: left;
     padding-left: $pad;
     width: 100%;
+  }
+
+  .inner-columns {
+    display: flex;
+  }
+
+  .inner-columns>.column {
+    float: none;
+  }
+
+  .inner-columns>.column:not(:first-child) {
+    padding-left: $pad;
+  }
+
+  .inner-column-1 {
+    width: 66.67%;
+  }
+
+  .inner-column-2 {
+    width: 33.33%;
   }
 
   .fr { 

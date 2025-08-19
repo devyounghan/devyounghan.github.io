@@ -1,8 +1,15 @@
 // #4fb1ba
 
 // mark
-.my-mark {
+.my-mark-1 {
     background-color: #177b84;
+    color: var(--body-color);
+    padding: 0 0.2em;
+    border-radius: 0.2em;
+}
+
+.my-mark-2 {
+    background-color: #1b8c96;
     color: var(--body-color);
     padding: 0 0.2em;
     border-radius: 0.2em;
@@ -35,6 +42,7 @@ details[open]>summary.my-underline {
     gap: 1.5rem;
     width: 100%;
     box-sizing: border-box;
+    // margin-top: -1rem;
 }
 .my-img-row img {
   flex: 1 1 0;
@@ -97,9 +105,11 @@ body {
   height: 120px;
   border: 8px solid #070707;
   border-radius: 4px;
+//   background: url('/assets/img/your-background.png') center center/cover no-repeat;
   background: #ffedb5;
   position: relative;
   overflow: hidden;
+//   margin-bottom: 0.5rem;
 }
 // _links.pre.scss에 작성된 no-hover가 배경 외곽선 하단을 제거하는 것을 예외 처리
 .my-avatar-bg.no-hover {

@@ -36,7 +36,8 @@ details[open]>summary.my-underline {
     width: 100%;
     box-sizing: border-box;
 }
-.my-img-row img {
+.my-img-row img,
+.my-img-row video {
   flex: 1 1 0;
   max-width: 100%;
   height: auto;
@@ -113,13 +114,18 @@ body {
   object-fit: cover;
 }
 
-// scss 덮어쓰기
+
+
+////// pre.scss 관련
+
 // _sidebar.pre.scss
+// sidebar 배경 그라데이션 색 제거
 .sidebar-bg.sidebar-overlay::after {
   background: none !important;
 }
 
 // _type.pre.scss
+// dt 태그 뒤 콜론 제거
 dt.no-colon:after {
   content: "";
 }

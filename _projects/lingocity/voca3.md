@@ -17,6 +17,14 @@ sitemap: false
   </figure>
 </div>
 
+<div class="my-img-row">
+  <figure>
+    <video controls muted style="width:60%;" poster="/assets/img/projects/lingocity/voca3/voca3.jpg">
+      <source src="/assets/img/projects/lingocity/voca3/voca3_type1_play.mp4" type="video/mp4">
+    </video>
+  </figure>
+</div>
+
 * 목차
 {:toc}
 

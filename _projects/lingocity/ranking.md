@@ -11,9 +11,9 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-<div class="my-img-row">
+<div class="my-media-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/ranking/ranking_leaderboard_my.jpg" style="width:60%" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/ranking/ranking_leaderboard_my.jpg" style="width:70%" oncontextmenu="return false;">
   </figure>
 </div>
 
@@ -37,8 +37,8 @@ sitemap: false
 유저는 리더보드에 노출된 다른 유저에게 '좋아요'를 누를 수 있고, 해당 유저의 접속 여부와 획득한 포인트를 확인할 수 있습니다.<br>
 유저를 터치하면 상세 정보가 나오며 받은 좋아요 수, 수집 현황, 티어 히스토리, 학습 히스토리를 확인할 수 있습니다.
 
-<div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div style="margin-top:2rem;"></div>
+<div class="my-media-row">
  <figure>
     <img src="/assets/img/projects/lingocity/ranking/ranking_hq_leaderboard.jpg" oncontextmenu="return false;">
     <figcaption>본부 내 리더보드 오브젝트</figcaption>

@@ -21,7 +21,7 @@ sitemap: false
 ---
 
 <!-- <div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div class="my-media-row">
 <figure>
     <img src="/assets/img/projects/lingocity/main_emotion_anim.gif" oncontextmenu="return false;">
     <figcaption>캐릭터 감정 표현</figcaption>
@@ -38,11 +38,11 @@ sitemap: false
 
 ---
 
-링고시티는 메타버스 기반 영어 회화 학습 제품입니다.<br>
-메타버스로 구현된 전 세계 주요 국가를 여행하며 다양한 유형의 학습 미션들과 게이미피케이션 콘텐츠로 재미있고 자연스럽게 영어를 학습할 수 있습니다.
+링고시티는 2024년 10월 출시된 메타버스 기반 영어 회화 학습 제품입니다.<br>
+메타버스로 구현된 전 세계 주요 국가를 배경으로 다양한 콘텐츠와 함께 재미있고 자연스럽게 영어를 학습할 수 있습니다.
 
-<div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div style="margin-top:2rem;"></div>
+<div class="my-media-row">
   <figure>
     <img src="/assets/img/projects/lingocity/main_paris.jpg" oncontextmenu="return false;">
     <figcaption>메타버스로 구현된 파리</figcaption>
@@ -52,6 +52,21 @@ sitemap: false
     <figcaption>영어 회화 학습</figcaption>
   </figure>
 </div>
+
+<details>
+<summary class="my-underline">관련 공식 영상</summary>
+<div style="margin-top:1rem;"></div>
+<div class="my-media-row">
+  <figure class="youtube">
+    <iframe src="https://www.youtube.com/embed/cw3pM-BBK2U" frameborder="0" allowfullscreen></iframe>
+    <figcaption>티저 영상</figcaption>
+  </figure>
+  <figure class="youtube">
+    <iframe src="https://www.youtube.com/embed/Law3TFX4kLY" frameborder="0" allowfullscreen></iframe>
+    <figcaption>소개 및 설명 영상</figcaption>
+  </figure>
+</div>
+</details>
 
 
 ## 특징
@@ -70,16 +85,15 @@ sitemap: false
 
 ---
 
+
 ### 게이미피케이션 콘텐츠
 {:.my-heading-circle-2 style="margin-top:0.5rem;"}
 
 > Gamification, 게임이 아닌 영역에 게임의 요소를 도입하여 사용자의 참여와 몰입도를 높이는 것
-
-<!-- Gamification, 게임이 아닌 영역에 게임의 요소를 도입하여 사용자의 참여와 몰입도를 높이는 것
-{:.message} -->
+<!-- {:.message} -->
 
 가장 주력으로 담당하여 개발한 분야입니다.<br>
-링고시티에서의 재미 요소, 학습 동기 부여 요소 등에 대해 고민했고,<br>
+링고시티에서의 재미 요소와 학습의 지속성을 높일 수 있는 방안에 대해 고민하였고,<br>
 성장, 보상 등 다양한 게이미피케이션 요소를 활용한 콘텐츠를 개발하였습니다.
 
 - **[버디(펫)]**<br>
@@ -94,8 +108,8 @@ sitemap: false
 [아바타]: /lingocity/avatar.md
 [감정 표현]: /lingocity/emotion.md
 
-<div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div style="margin-top:2rem;"></div>
+<div class="my-media-row">
   <figure>
     <img src="/assets/img/projects/lingocity/main_buddy.jpg" oncontextmenu="return false;">
     <figcaption>버디</figcaption>
@@ -118,8 +132,8 @@ sitemap: false
 
 [Voca3 미션]: /lingocity/voca3.md
 
-<div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div style="margin-top:2rem;"></div>
+<div class="my-media-row">
   <figure>
     <img src="/assets/img/projects/lingocity/main_voca3_1.jpg" oncontextmenu="return false;">
     <figcaption>어휘 말하기</figcaption>
@@ -134,7 +148,7 @@ sitemap: false
 ### 툴
 {:.my-heading-circle-2}
 
-팀 내 개발 효율성을 향상시키기 위한 별도의 개발용 툴을 개발하고 관리하였습니다.<br>
+팀 내 개발 효율성을 향상시키기 위한 개발용 툴을 개발하고 관리하였습니다.<br>
 모바일 플랫폼 제품인 링고시티를 Windows 환경(개인 PC)에서 실행하고,<br>
 여러 편의 기능을 활용하여 기획, 검증 등 필요한 작업을 보다 효율적으로 진행할 수 있도록 개발하였습니다.
 
@@ -142,10 +156,10 @@ sitemap: false
 
 [링고시티 Windows 툴]: /lingocity/wtt.md
 
-<div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div style="margin-top:2rem;"></div>
+<div class="my-media-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/main_wtt.jpg" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/main_wtt.jpg" style="width:90%" oncontextmenu="return false;">
     <figcaption>툴 실행 장면</figcaption>
   </figure>
 </div>

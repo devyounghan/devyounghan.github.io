@@ -1,8 +1,8 @@
-// #4fb1ba
+////// Decoration
 
 // mark
 .my-mark {
-    background-color: #177b84;
+    background-color: #ffedb5; // #4fb1ba
     color: var(--body-color);
     padding: 0 0.2em;
     border-radius: 0.2em;
@@ -27,25 +27,7 @@ details[open]>summary.my-underline {
     text-decoration-color: var(--accent-color);
 }
 
-// image layout
-.my-img-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
-    width: 100%;
-    box-sizing: border-box;
-}
-.my-img-row img,
-.my-img-row video {
-  flex: 1 1 0;
-  max-width: 100%;
-  height: auto;
-  min-width: 120px;
-  box-sizing: border-box;
-}
-
-// header
+// heading
 .my-heading-circle-1 {
   position: relative;
 }
@@ -112,6 +94,43 @@ body {
   max-height: 100%;
   border-radius: 0px;
   object-fit: cover;
+}
+
+
+
+////// Layout
+
+.my-media-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.my-media-row img,
+.my-media-row video {
+  flex: 1 1 0;
+  min-width: 120px;
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.my-media-row .youtube {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 120px;
+  max-width: 80%;
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+}
+.my-media-row .youtube iframe {
+  position: static;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border: none;
+  display: block;
 }
 
 

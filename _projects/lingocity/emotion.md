@@ -11,9 +11,9 @@ theme_color: '#193747'
 sitemap: false
 ---
 
-<div class="my-img-row">
+<div class="my-media-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/emotion/emotion_hi_anim.gif" style="width:70%" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/emotion/emotion_hi_anim.gif" style="width:80%" oncontextmenu="return false;">
   </figure>
 </div>
 
@@ -29,8 +29,8 @@ sitemap: false
 기존에 이미 많이 제작되어 있는 링고시티 내 애니메이션을 재활용하면서 새로운 재미 요소를 추가할 수 있는 콘텐츠였고,<br>
 아바타처럼 양산을 쉽게 할 수 있는 구조를 이용해 감정 표현 추가 시 데이터만 추가하면 바로 적용이 가능하도록 개발하였습니다.
 
-<div style="margin-top:3rem;"></div>
-<div class="my-img-row">
+<div style="margin-top:2rem;"></div>
+<div class="my-media-row">
  <figure>
     <img src="/assets/img/projects/lingocity/emotion/emotion_ui.jpg" oncontextmenu="return false;">
     <figcaption>전용 UI</figcaption>

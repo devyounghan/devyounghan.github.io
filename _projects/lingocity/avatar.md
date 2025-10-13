@@ -13,63 +13,92 @@ sitemap: false
 
 <div class="my-media-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop_job.jpg" style="width:70%" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/avatar/avatar.jpg" style="width:70%" oncontextmenu="return false;">
   </figure>
 </div>
 
-* 목차
-{:toc}
+<!-- * 목차
+{:toc} -->
+
+<!-- <details>
+<summary class="my-underline" style="margin-bottom:1rem;">관련 소스 코드 일부</summary>
+
+<details style="margin-left:1rem;">
+<summary class="my-underline" style="margin-bottom:1rem;">Example.cs</summary>
+<pre><code class="language-cs">// 예시
+...
+</code></pre>
+</details>
+
+</details> -->
+
+<!-- <details>
+<summary class="my-underline" style="margin-bottom:1rem;">관련 영상</summary>
+  <div class="my-media-row">
+    <figure>
+      <video controls muted style="width:70%;" poster="/assets/img/projects/lingocity/emotion/emotion_ui.jpg">
+        <source src="/assets/img/projects/lingocity/emotion/emotion_play.mp4" type="video/mp4">
+      </video>
+      <figcaption>플레이 영상</figcaption>
+    </figure>
+  </div>
+</details> -->
+
+
+### 소개
+{:.my-heading-circle-1}
+
+- 캐릭터 얼굴, 의상 등 외형 꾸미기 기능
+- 링고시티 주요 보상 요소
 
 
 ### 특징
+{:.my-heading-circle-1}
 
-캐릭터의 외형을 꾸미는 링고시티의 중요한 콘텐츠 중 하나입니다.<br>
-머리, 상의, 하의, 신발, 악세사리 등의 의상을 포함하여 눈, 코, 입, 피부 등 캐릭터의 얼굴 외형도 변경할 수 있습니다.<br><br>
-이러한 아바타들은 종류가 많고 추가 업데이트도 잦아 양산이 용이할 수 있게 설계하고 개발하였습니다.<br>
-이를 바탕으로 아바타 추가 시 별도의 빌드를 거치지 않고도 데이터와 리소스(Addressables)만 업데이트하면 곧바로 적용이 될 수 있도록 하였습니다.
+- 구매 및 장착·해제 방식
+- 장착 정보 서버 저장
+- 양산 최적화, 앱 빌드 최소화 구조
+  - 정해진 포맷 + 데이터 + 리소스
+  - 데이터(CSV 파일) - 아바타 종류, 부위 등
+  - 리소스(Addressables) - 아바타 오브젝트, 이미지 등
+  - 클라우드를 통한 데이터·리소스 버전 및 배포 관리
 
-<div style="margin-top:2rem;"></div>
+<div style="margin-bottom:2rem;"></div>
 <div class="my-media-row">
  <figure>
     <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop_clothes.jpg" style="width:70%" oncontextmenu="return false;">
-    <figcaption>의상 상점</figcaption>
+    <figcaption>캐릭터 의상 상점</figcaption>
   </figure>
 </div>
 
 
 ### 아이템샵
+{:.my-heading-circle-1}
 
-아바타는 아이템샵 내에서 구매 및 교체할 수 있습니다.<br>
-아이템샵에서는 캐릭터 아바타 뿐만 아니라 버디 아바타, 소모성 아이템, 감정 표현 등 링고시티 내의 모든 아이템들을 구매할 수 있습니다.<br>
-링고시티에서의 특수 보상인 '직업 의상'도 아이템샵에서 교환 및 착용할 수 있습니다.
+- 아이템, 재화 관련 전용 공간
+- 아바타 교체
+- 아이템 구매
+  - 캐릭터 아바타
+  - 버디 아바타
+  - 소비 아이템
+  - 감정 표현
+- 재화 교환
+  - 현금성 재화 '링고스타' → 게임 재화 '링고스톤'
 
-<div style="margin-top:2rem;"></div>
+<div style="margin-bottom:2rem;"></div>
 <div class="my-media-row">
  <figure>
-    <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop.jpg" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop.jpg" style="width:70%" oncontextmenu="return false;">
     <figcaption>아이템샵 내부</figcaption>
   </figure>
+</div>
+<div class="my-media-row">
   <figure>
     <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop_item.jpg" oncontextmenu="return false;">
-    <figcaption>소모성 아이템 상점</figcaption>
+    <figcaption>소비 아이템 상점</figcaption>
   </figure>
-</div>
-
-
-### 환전
-
-아이템샵 내부에는 환전 기능이 있습니다.<br>
-환전은 현금성 재화인 '링고스타'를 게임 재화인 '링고스톤'으로 교환하는 기능입니다.<br>
-링고시티의 api가 아닌 타 팀에서 사용하는 외부 api를 연동해 교환하는 것이 특징입니다.
-
-<div style="margin-top:2rem;"></div>
-<div class="my-media-row">
  <figure>
     <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop_exchange_1.jpg" oncontextmenu="return false;">
-    <figcaption>환전</figcaption>
-  </figure>
-  <figure>
-    <img src="/assets/img/projects/lingocity/avatar/avatar_itemshop_exchange_2.jpg" oncontextmenu="return false;">
-    <figcaption>교환 내역</figcaption>
+    <figcaption>재화 교환소</figcaption>
   </figure>
 </div>

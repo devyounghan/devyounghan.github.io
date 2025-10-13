@@ -15,19 +15,19 @@ Example code for using Matamo as alternative analytics solution.
   _paq.push(['setTrackerUrl', u+'piwik.php']);
   _paq.push(['setSiteId', '{{site.matomo_analytics.site_id}}']);
 
-  var pushStateEl = document.getElementById('_pushState');
+  var pushStateElement = document.getElementById('_pushState');
   var timeStartLoadPage, referer, timeItTookToLoadPage;
 
-  pushStateEl.addEventListener('hy-push-state-start', function() {
+  pushStateElement.addEventListener('hy-push-state-start', function() {
     timeStartLoadPage = new Date().getTime();
     referer = window.location.toString();
   });
 
-  pushStateEl.addEventListener('hy-push-state-ready', function() {
+  pushStateElement.addEventListener('hy-push-state-ready', function() {
     timeItTookToLoadPage = new Date().getTime() - timeStartLoadPage;
   });
 
-  pushStateEl.addEventListener('hy-push-state-after', function() {
+  pushStateElement.addEventListener('hy-push-state-after', function() {
     _paq.push(['setReferrerUrl', referer]);
     _paq.push(['setCustomUrl', window.location.toString()]);
     _paq.push(['setDocumentTitle', document.title]);
@@ -40,3 +40,20 @@ Example code for using Matamo as alternative analytics solution.
 </script>
 {% endif %}
 {% endcomment %}
+
+// Code highlight
+<link rel="stylesheet" href="/assets/highlight/styles/vs2015.css">
+<script src="/assets/highlight/highlight.min.js"></script>
+<script>
+  // 최초 페이지 로드 시 코드 하이라이트 적용
+  document.addEventListener('DOMContentLoaded', function() {
+    if (window.hljs) hljs.highlightAll();
+  });
+  // Hydejack 동적 페이지 이동 시 코드 하이라이트 적용
+  var pushStateElement = document.getElementById('_pushState');
+  if (pushStateElement) {
+    pushStateElement.addEventListener('hy-push-state-after', function() {
+      if (window.hljs) hljs.highlightAll();
+    });
+  }
+</script>

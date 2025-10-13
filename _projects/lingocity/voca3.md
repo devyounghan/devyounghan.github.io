@@ -17,50 +17,58 @@ sitemap: false
   </figure>
 </div>
 
-* 목차
-{:toc}
+<!-- * 목차
+{:toc} -->
+
+<!-- <details>
+<summary class="my-underline" style="margin-bottom:1rem;">관련 소스 코드 일부</summary>
+
+<details style="margin-left:1rem;">
+<summary class="my-underline" style="margin-bottom:1rem;">Example.cs</summary>
+<pre><code class="language-cs">// 예시
+...
+</code></pre>
+</details>
+
+</details> -->
+
+<details>
+<summary class="my-underline" style="margin-bottom:1rem;">관련 영상</summary>
+  <div class="my-media-row">
+    <figure>
+      <video controls muted style="width:70%;" poster="/assets/img/projects/lingocity/voca3/voca3_type1_thumbnail.jpg">
+        <source src="/assets/img/projects/lingocity/voca3/voca3_type1_play.mp4" type="video/mp4">
+      </video>
+      <figcaption>플레이 영상 - 1번 타입</figcaption>
+    </figure>
+  </div>
+</details>
 
 
 ### 소개
+{:.my-heading-circle-1}
 
-Voca3 미션은 링고시티의 학습 미션들 중 어휘 학습을 목표로 하는 미션입니다.<br><br>
+- 어휘 학습용 미션
+- 출시 이후 업데이트로 추가된 신규 유형
+- 새로운 연출과 다양한 효과로 재미 강화
+- 사용자 경험에 대한 고민 및 진행 방식 지속적 개선
 
-어휘 말하기 → 문장 듣기 → 문장 만들기 → 문장 말하기
-{:.message}
-
-하나의 문항은 위 순서대로 진행되며, 목표 어휘와 해당 어휘가 활용된 문장을 학습할 수 있습니다.<br>
-
-'말하기' 과정에서는 유저가 음성으로 입력한 내용이 STT를 통해 채점되고,<br>
-이때 서버와 통신하여 문항 진행에 필요한 정보를 받게 됩니다.<br>
-모든 순서를 완료하면 해당 문항의 진행 상태가 서버에 저장됩니다.
-
-<div style="margin-top:2rem;"></div>
-<div class="my-media-row">
-  <figure>
-    <video controls muted style="width:70%;" poster="/assets/img/projects/lingocity/voca3/voca3_type1_thumbnail.jpg">
-      <source src="/assets/img/projects/lingocity/voca3/voca3_type1_play.mp4" type="video/mp4">
-    </video>
-    <figcaption>플레이 영상(1번 타입)</figcaption>
-  </figure>
-</div>
+<!-- 어휘 말하기 → 문장 듣기 → 문장 만들기 → 문장 말하기
+{:.message} -->
 
 
 ### 특징
+{:.my-heading-circle-1}
 
-Voca3 미션은 학습 커리큘럼 상 고레벨(4~6레벨)에서만 등장하며, 이에 맞추어 중간에 '문장 만들기' 과정이 추가되었습니다.<br>
-해당 과정에서는 빌런이 등장하여 문장을 부수고, 유저가 흩어진 어휘를 순서대로 나열해 올바른 문장을 완성하는 방식으로 진행됩니다.<br>
-또한 이렇게 등장한 빌런은 유저의 행동에 따라 다양한 리액션을 보여줍니다.<br>
+- 4가지 타입 연출
+- STT, TTS 활용
+- 서버 통신
+- 양산 최적화, 앱 빌드 최소화 구조
+  - 정해진 미션 포맷 + 데이터(미션 코드, 미션 위치, 스크립트 등)
+  - 데이터는 CSV 파일로 작성·관리
+  - 클라우드를 통한 데이터 버전 및 배포 관리
 
-이 '문장 만들기' 과정이 Voca3 미션만의 가장 큰 차별점으로, 빌런과 유저가 대결하는 새로운 컨셉과 함께 다양한 연출이 적용되었습니다.
-
-
-### 연출
-
-위의 '문장 만들기' 과정에는 별도의 연출을 적용하였고, 총 4가지 타입으로 나누어 개발하였습니다.<br>
-팀원들을 대상으로 프로토타입 공개 당시 이전에 없던 풍성한 연출로 좋은 평가를 받았고,<br>
-출시 후에도 유저들에게 긍정적인 피드백을 받을 수 있었습니다.
-
-<div style="margin-top:2rem;"></div>
+<div style="margin-bottom:2rem;"></div>
 <div class="my-media-row">
   <figure>
     <img src="/assets/img/projects/lingocity/voca3/voca3_type1_anim.gif" oncontextmenu="return false;">

@@ -13,30 +13,59 @@ sitemap: false
 
 <div class="my-media-row">
   <figure>
-    <img src="/assets/img/projects/lingocity/emotion/emotion_hi_anim.gif" style="width:80%" oncontextmenu="return false;">
+    <img src="/assets/img/projects/lingocity/emotion/emotion_anim.gif" style="width:80%" oncontextmenu="return false;">
   </figure>
 </div>
 
-* 목차
-{:toc}
+<!-- * 목차
+{:toc} -->
+
+<!-- <details>
+<summary class="my-underline" style="margin-bottom:1rem;">관련 소스 코드 일부</summary>
+
+<details style="margin-left:1rem;">
+<summary class="my-underline" style="margin-bottom:1rem;">Example.cs</summary>
+<pre><code class="language-cs">// 예시
+...
+</code></pre>
+</details>
+
+</details> -->
+
+<details>
+<summary class="my-underline" style="margin-bottom:1rem;">관련 영상</summary>
+  <div class="my-media-row">
+    <figure>
+      <video controls muted style="width:70%;" poster="/assets/img/projects/lingocity/emotion/emotion_thumbnail.jpg">
+        <source src="/assets/img/projects/lingocity/emotion/emotion_play.mp4" type="video/mp4">
+      </video>
+      <figcaption>플레이 영상</figcaption>
+    </figure>
+  </div>
+</details>
+
+
+### 소개
+{:.my-heading-circle-1}
+
+- 캐릭터 감정 표현 기능
+- 부족한 캐릭터 자체 상호작용 기능 보완
 
 
 ### 특징
+{:.my-heading-circle-1}
 
-다양한 애니메이션을 활용한 감정 표현 기능입니다.<br>
-캐릭터를 터치해 등장하는 전용 UI에서 원하는 감정 표현을 선택해 실행할 수 있습니다.<br>
-감정 표현은 구매하고 장착해야 사용할 수 있으며 최대 6개까지 장착할 수 있습니다.<br><br>
-기존에 이미 많이 제작되어 있는 링고시티 내 애니메이션을 재활용하면서 새로운 재미 요소를 추가할 수 있는 콘텐츠였고,<br>
-아바타처럼 양산을 쉽게 할 수 있는 구조를 이용해 감정 표현 추가 시 데이터만 추가하면 바로 적용이 가능하도록 개발하였습니다.
+- 기존 애니메이션 재활용
+- 아바타 아이템 유사 체계
+  - 데이터(CSV 파일)
+  - 상점 내 구매
+  - 보관함 내 장착·해제
+  - 장착 정보 서버 저장
 
-<div style="margin-top:2rem;"></div>
+<div style="margin-bottom:2rem;"></div>
 <div class="my-media-row">
- <figure>
-    <img src="/assets/img/projects/lingocity/emotion/emotion_ui.jpg" oncontextmenu="return false;">
-    <figcaption>전용 UI</figcaption>
-  </figure>
-   <figure>
-    <img src="/assets/img/projects/lingocity/emotion/emotion_storage.jpg" oncontextmenu="return false;">
+  <figure>
+    <img src="/assets/img/projects/lingocity/emotion/emotion_storage.jpg" style="width:70%" oncontextmenu="return false;">
     <figcaption>보관함</figcaption>
   </figure>
 </div>

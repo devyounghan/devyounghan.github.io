@@ -47,26 +47,13 @@ Example code for using Matamo as alternative analytics solution.
 <script>
   /* 최초 페이지 로드 시 코드 하이라이트 적용 */
   document.addEventListener('DOMContentLoaded', function() {
-    if (window.hljs) {
-      console.log('DOMContentLoaded: highlight.js loaded');
-      hljs.highlightAll();
-    } else {
-      console.log('DOMContentLoaded: highlight.js NOT loaded');
-    }
+    if (window.hljs) hljs.highlightAll();
   });
   /* Hydejack 동적 페이지 이동 시 코드 하이라이트 적용 */
   var pushStateElement = document.getElementById('_pushState');
   if (pushStateElement) {
-    console.log('_pushState element found');
     pushStateElement.addEventListener('hy-push-state-after', function() {
-      if (window.hljs) {
-        console.log('hy-push-state-after: highlight.js loaded');
-        hljs.highlightAll();
-      } else {
-        console.log('hy-push-state-after: highlight.js NOT loaded');
-      }
+      if (window.hljs) hljs.highlightAll();
     });
-  } else {
-    console.log('_pushState element NOT found');
   }
 </script>

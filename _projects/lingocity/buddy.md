@@ -20,7 +20,7 @@ sitemap: false
 <!-- * 목차
 {:toc} -->
 
-<details>
+<!-- <details>
 <summary class="my-underline" style="margin-bottom:1rem;">관련 소스 코드 일부</summary>
 
 <details style="margin-left:1rem;">
@@ -589,7 +589,7 @@ public class PetSitState : PetState
 </code></pre>
 </details>
 
-</details>
+</details> -->
 
 <details>
 <summary class="my-underline" style="margin-bottom:1rem;">관련 영상</summary>

@@ -132,6 +132,22 @@ body {
   border: none;
   display: block;
 }
+.my-media-row .youtube-iphone {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 120px;
+  max-width: 100%;
+  aspect-ratio: 15 / 7;
+  box-sizing: border-box;
+}
+.my-media-row .youtube-iphone iframe {
+  position: static;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 15 / 7;
+  border: none;
+  display: block;
+}
 
 
 

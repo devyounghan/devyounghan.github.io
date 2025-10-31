@@ -45,29 +45,31 @@ sitemap: false
 </div>
 
 <details>
-<summary class="my-underline" style="margin-bottom:1rem;">콘텐츠 플레이 영상</summary>
+<summary class="my-underline" style="margin-bottom:1rem;">플레이 영상</summary>
   <div class="my-media-row">
-    <figure>
-      <video controls muted style="width:70%;" poster="/assets/img/projects/lingocity/main_voca3_type1_thumbnail.jpg">
-        <source src="/assets/img/projects/lingocity/main_voca3_type1_play.mp4" type="video/mp4">
-      </video>
-      <figcaption>학습 미션(Voca3 유형)</figcaption>
+    <figure class="youtube-iphone">
+      <iframe src="https://www.youtube.com/embed/un5TgFR6tjM" frameborder="0" allowfullscreen></iframe>
+      <figcaption>요원 등록 + 첫 번째 미션 진행</figcaption>
+    </figure>
+  </div>
+  <div class="my-media-row">
+    <figure class="youtube-iphone">
+      <iframe src="https://www.youtube.com/embed/hQDwNOvPs9Y" frameborder="0" allowfullscreen></iframe>
+      <figcaption>월드 탐험</figcaption>
     </figure>
   </div>
 </details>
 
 <details>
 <summary class="my-underline" style="margin-bottom:1rem;">공식 유튜브 영상</summary>
-<div class="my-media-row">
-  <figure class="youtube">
-    <iframe src="https://www.youtube.com/embed/cw3pM-BBK2U" frameborder="0" allowfullscreen></iframe>
-    <figcaption>티저 영상</figcaption>
-  </figure>
-  <figure class="youtube">
-    <iframe src="https://www.youtube.com/embed/Law3TFX4kLY" frameborder="0" allowfullscreen></iframe>
-    <figcaption>소개 및 설명 영상</figcaption>
-  </figure>
-</div>
+  <div class="my-media-row">
+    <figure class="youtube">
+      <iframe src="https://www.youtube.com/embed/cw3pM-BBK2U" frameborder="0" allowfullscreen></iframe>
+      <figcaption>티저</figcaption>
+    </figure>
+      <figcaption>소개 및 설명</figcaption>
+    </figure>
+  </div>
 </details>
 
 <div style="margin-bottom:7rem;"></div>

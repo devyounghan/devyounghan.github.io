@@ -67,6 +67,8 @@ sitemap: false
       <iframe src="https://www.youtube.com/embed/cw3pM-BBK2U" frameborder="0" allowfullscreen></iframe>
       <figcaption>티저</figcaption>
     </figure>
+    <figure class="youtube">
+      <iframe src="https://www.youtube.com/embed/Law3TFX4kLY" frameborder="0" allowfullscreen></iframe>
       <figcaption>소개 및 설명</figcaption>
     </figure>
   </div>

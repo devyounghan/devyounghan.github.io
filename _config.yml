@@ -50,8 +50,8 @@ logo:                  /assets/img/profile/simple_transparent.png
 menu:
   - title:             Projects
     url:               /projects/
-  - title:             Resume
-    url:               /resume/
+  # - title:             Resume
+  #   url:               /resume/
   - title:             Blog
     url:               /blog/
   # - title:             Résumé*
